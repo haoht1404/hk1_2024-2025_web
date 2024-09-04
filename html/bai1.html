@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Cafe Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        h1,
+        h2 {
+            font-family: 'Georgia', serif;
+        }
+        
+        .menu-section {
+            margin-bottom: 30px;
+        }
+        
+        .menu-section h2 {
+            color: #333;
+        }
+        
+        .menu-item {
+            margin-bottom: 10px;
+        }
+        
+        .vegetarian {
+            color: green;
+            font-weight: bold;
+        }
+        
+        .back-to-top {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Example Cafe Menu</h1>
+
+    <div class="menu-section">
+        <h2><a href="#starters">Starters</a> | <a href="#main-courses">Main Courses</a> | <a href="#desserts">Desserts</a></h2>
+    </div>
+
+    <div id="starters" class="menu-section">
+        <h2>Starters</h2>
+        <p class="menu-item">Chestnut and Mushroom Goujons <span class="vegetarian">(v)</span></p>
+        <p class="menu-item">Goat Cheese Salad <span class="vegetarian">(v)</span></p>
+        <p class="menu-item">Honey Soy Chicken Kebabs</p>
+        <p class="menu-item">Seafood Salad</p>
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
+    </div>
+
+    <div id="main-courses" class="menu-section">
+        <h2>Main Courses</h2>
+        <p class="menu-item">Spinach and Ricotta Roulade <span class="vegetarian">(v)</span></p>
+        <p class="menu-item">Beef Tournados with Mustard and Dill Sauce</p>
+        <p class="menu-item">Roast Chicken Salad</p>
+        <p class="menu-item">Icelandic Cod with Parsley Sauce</p>
+        <p class="menu-item">Mushroom Wellington <span class="vegetarian">(v)</span></p>
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
+    </div>
+
+    <div id="desserts" class="menu-section">
+        <h2>Desserts</h2>
+        <p class="menu-item">Lemon Sorbet <span class="vegetarian">(v)</span></p>
+        <p class="menu-item">Chocolate Mud Pie <span class="vegetarian">(v)</span></p>
+        <p class="menu-item">Pecan Pie <span class="vegetarian">(v)</span></p>
+        <p class="menu-item">Selection of Fine Cheeses from Around the World</p>
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
+    </div>
+
+    <p>Items marked with a <span class="vegetarian">(v)</span> are suitable for vegetarians.</p>
+
+</body>
+
+</html>
